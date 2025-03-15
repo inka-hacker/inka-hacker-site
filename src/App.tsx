@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Import your SVGs
-import AndeanSun from './assets/andean-sun.svg';
+import AndeanSun from './assets/Andean-sun.svg';
 import Chakana from './assets/chakana.svg';
 import AntiParlamentario from './assets/anti-parlamentario.svg';
 import SunAccPage from './pages/SunAccPage';
