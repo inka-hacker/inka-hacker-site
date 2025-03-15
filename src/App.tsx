@@ -18,7 +18,7 @@ function LandingPage() {
         className="flex flex-col items-center justify-center text-center p-8"
         style={{ backgroundColor: '#A23223', color: 'white', height: '100vh' }}
       >
-        <a href="/sun-acc" className="flex flex-col items-center">
+        <a href="#/sun-acc" className="flex flex-col items-center">
           <img src={AndeanSun} alt="Andean Sun Logo" className="w-40 h-40 mb-4" />
           <h1 className="text-4xl font-bold mb-2">Sun/acc</h1>
           <h2 className="text-2xl font-semibold">Philosophy</h2>
@@ -31,7 +31,7 @@ function LandingPage() {
         className="flex flex-col items-center justify-center text-center p-8"
         style={{ backgroundColor: '#00796B', color: 'white', height: '100vh' }}
       >
-        <a href="/pachacu-tech" className="flex flex-col items-center">
+        <a href="#/pachacu-tech" className="flex flex-col items-center">
           <img src={Chakana} alt="Chakana Logo" className="w-40 h-40 mb-4" />
           <h1 className="text-4xl font-bold mb-2">Pachacu-Tech</h1>
           <h2 className="text-2xl font-semibold">Culture</h2>
@@ -44,7 +44,7 @@ function LandingPage() {
         className="flex flex-col items-center justify-center text-center p-8"
         style={{ backgroundColor: '#DADADA', color: 'black', height: '100vh' }}
       >
-        <a href="/anti-parlamentario" className="flex flex-col items-center">
+        <a href="#/anti-parlamentario" className="flex flex-col items-center">
           <img src={AntiParlamentario} alt="Anti-Parlamentario Logo" className="w-40 h-40 mb-4" />
           <h1 className="text-4xl font-bold mb-2">Anti-Parliament</h1>
           <h2 className="text-2xl font-semibold">Politics</h2>
