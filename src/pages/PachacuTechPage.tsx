@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import Chakana from '../assets/chakana.svg';
-import Tawa_Chakana_white from '../assets/Tawa_Chakana_white.svg';
+import Tawa_chakana_white from '../assets/Tawa_chakana_white.svg';
 import TSS from '../assets/TSS.png';
 import imagen_pachacutec from '../assets/imagen_pachacutec.jpg';
 import map from '../assets/map.png';
@@ -29,7 +29,7 @@ function PachacuTechPage() {
 
         <div className="flex justify-center space-x-20">
         <a href="/pachacu-tech" className="flex flex-col items-center">
-            <img src={Tawa_Chakana_white} alt="Tawa Chakana Logo" className="w-40 h-40 mb-4" />
+            <img src={Tawa_chakana_white} alt="Tawa chakana Logo" className="w-40 h-40 mb-4" />
           </a>
           <a href="/pachacu-tech" className="flex flex-col items-center">
             <img src={Chakana} alt="Chakana Logo" className="w-40 h-40 mb-4" />
