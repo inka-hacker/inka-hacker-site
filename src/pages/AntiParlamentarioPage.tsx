@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import underT from '../assets/underT.jpg';
 
 function AntiParlamentarioPage() {
     const navigate = useNavigate();
@@ -54,7 +55,9 @@ function AntiParlamentarioPage() {
           <p className="mt-4 text-justify">When Congress blocks every attempt at change and no alternatives exist, the only logical step is to refound governance itself—not by seizing power, but by building a new model that makes traditional politics obsolete.</p>
           
           <h2 className="text-2xl sm:text-3xl font-semibold mt-8 text-left">IV. The Birth of the Anti-Parliament: Underthrow</h2>
-        
+
+          <img src={underT} alt="underT" className="mt-8 mx-auto w-1/2" />        
+
           <p className="mt-4 text-justify">The first time I read the word Underthrow, it had a magic to it—impossible to translate into Spanish, where we have no simple way to invert the meaning of overthrow. Unlike a violent coup or revolution, which seeks to overthrow an existing regime, underthrow suggests a more subtle, voluntary, and decentralized shift in power.</p>
           <p className="mt-4 text-justify">In his book Underthrow, Max Borders lays out a vision for governance that moves away from coercion and centralized control, instead emphasizing voluntary association, personal sovereignty, and decentralized networks. Rather than toppling governments through force, an underthrow erodes their influence by offering superior alternatives—systems that people willingly choose over the status quo. Borders argues that the future of governance will be shaped not by state institutions but by emergent, decentralized systems that allow individuals to opt in and out freely.</p>
           <p className="mt-4 text-justify">This concept is perfectly captured by venture fund manager Michael P. Gibson in what he calls the “Nakamoto Consensus”:</p>
